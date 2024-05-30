@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.navbar{
+    /* background-color: #1F2937; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;    
+}
+
+.navbar .right-container{
+    display: flex;
+    gap: 16px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .image-container {
+    width: 100px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    overflow: hidden; /* Hide any overflow beyond the container */
+}
+
+.navbar .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop and resize the image to cover the container */
+}
+
+.head{
+    /* background: #1F2937; */
+}
